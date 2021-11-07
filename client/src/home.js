@@ -87,7 +87,7 @@ class ImageUpload extends React.Component {
             <div>
                 
             <h1>UPLOAD ALL PICTURES(PAGES) OF YOUR WEB</h1>
-            <form action="http://localhost:33507/input" method="post" enctype="multipart/form-data"> 
+            <form action="http://localhost:5000/input" method="post" enctype="multipart/form-data"> 
                 <input type="file"  accept="image/*" name="file" onChange={this.handleImagePreview1}  multiple/>    
                 <img src={this.state.file} alt="display" width="500" height="600"/>
                 <h3   ref={this.setRef}></h3>

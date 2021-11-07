@@ -208,9 +208,9 @@ prediction_model = keras.models.Model(
 )
 r={}
 
-@app.route("/")
-def index():
-    return render_template("index.html")
+# @app.route("/")
+# def index():
+#     return render_template("index.html")
 @app.route("/input",methods=["POST","GET"])
 def input():
     @after_this_request
@@ -368,8 +368,7 @@ def edit():
 
 
 if __name__ == "__main__":
-    p = int(os.environ.get('PORT', 33507))
-    app.run(debug=True,host='localhost', port=p)
+    app.run(debug=True,host='localhost', port=5000)
 
 
 # # @after_this_request

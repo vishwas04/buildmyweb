@@ -51,7 +51,7 @@ class Edit extends React.Component {
       }
     getData(){
 
-    const url = 'http://localhost:33507/edit';
+    const url = 'http://localhost:5000/edit';
     fetch(url)
     .then(response => response.json())  
     .then(j => { //j={"(17,361,353,49)": [["image", [0, 0]], ["tine", [0, 1]], ["ine", [0, 2]], ["Lontadus", [0, 3]]], "(145,244,220,109)": [["image", [0, 0]], ["is", [0, 1]], ["sont", [0, 2]], ["Maim", [0, 3]], ["bat", [1, 0]], ["bat", [1, 1]], ["the", [1, 2]], ["maw", [1, 3]], ["thar", [2, 0]], ["gang", [2, 1]], ["to", [2, 2]], ["be", [2, 3]], ["third", [3, 0]]], "(140,90,229,149)": [["image", [0, 0]]], "(11,91,113,266)": [["sidebar", [0, 0]], ["rest", [1, 0]], ["calder", [2, 0]], ["peds", [3, 0]], ["beignet", [4, 0]], ["moment", [5, 0]]], "(9,4,362,72)": [["navbar", [0, 0]], ["Mome", [0, 1]], ["about", [0, 2]], ["logout", [0, 3]]]}
