@@ -368,7 +368,8 @@ def edit():
 
 
 if __name__ == "__main__":
-    app.run(debug=True,host='localhost', port=33507)
+    p = int(os.environ.get('PORT', 33507))
+    app.run(debug=True,host='localhost', port=p)
 
 
 # # @after_this_request
