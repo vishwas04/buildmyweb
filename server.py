@@ -210,7 +210,7 @@ r={}
 
 @app.route("/")
 def index():
-    return "1"
+    return 1
 @app.route("/input",methods=["POST","GET"])
 def input():
     @after_this_request
