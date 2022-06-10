@@ -1,16 +1,19 @@
 # Installation
+Clone the Repo
 git clone  https://github.com/vishwas04/buildmyweb
 
 TERMINAL 1
-cd buildmyweb
-cd client 
-npm install
-npm run-script build
+cd buildmyweb -> 
+cd client -> 
+npm install -> 
+npm run-script build -> 
 npm start
 
+
+
 TERMINAL 2
-cd buildmyweb
-install Dependencies for server.py [bit Headache]
+cd buildmyweb -> 
+install Dependencies for server.py [bit Headache] -> 
 python3 server.py
 
 
